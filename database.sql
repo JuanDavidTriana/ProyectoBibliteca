@@ -36,6 +36,7 @@ ALTER TABLE
 ALTER TABLE
     `libros` ADD CONSTRAINT `libros_id_biblioteca_foreign` FOREIGN KEY(`id_biblioteca`) REFERENCES `bibliotecas`(`id`);
     
+    
     -- Insertar bibliotecas
 INSERT INTO bibliotecas (nombre, direccion) VALUES
 ('Biblioteca Central de Madrid', 'Calle Alcalá 96, 28009 Madrid'),

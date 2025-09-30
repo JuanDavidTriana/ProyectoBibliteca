@@ -4,3 +4,5 @@ class Seccione:
         self.id_bilioteca = id_bilioteca
         self.nombre = nombre
         self.piso = piso
+
+    
