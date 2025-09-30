@@ -24,6 +24,7 @@ class DatabaseConfig:
                 password=self.password,
                 port=self.port
             )
+            return True
         except Error as e:
             print(f"Error al conectar a la base de datos: {e}")
             return False
